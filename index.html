@@ -169,7 +169,14 @@
                 <p class="hero-paragraph">Join MentorMeInTech Today!</p>
 
                 <!-- signup form -->
-                <form class="hero-form field">
+                <form
+                  class="hero-form field"
+                  action="https://github.us11.list-manage.com/subscribe/post?u=d84b2cda48ca08683bbb99bc4&amp;id=1de699dc09&amp;f_id=00e491e0f0"
+                  method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                  target="_self"
+                >
                   <!-- mailchimp form api -->
                   <input type="hidden" name="u" value="" />
                   <input type="hidden" name="id" value="" />
@@ -179,31 +186,33 @@
                     <input
                       class="input"
                       type="text"
-                      name=""
-                      id="first-name"
+                      name="FNAME"
+                      id="first-name mce-FNAME"
                       size="25"
                       value=""
                       placeholder="First name&hellip;"
                       required
                     />
+                    <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
                     <!-- last name -->
                     <input
                       class="input"
                       type="text"
-                      name=""
-                      id=""
+                      name="LNAME"
+                      id="mce-LNAME"
                       size="25"
                       value=""
                       placeholder="Last name&hellip;"
                       required
                     />
+                    <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
                   </div>
                   <!-- phone number -->
                   <input
                     class="input"
                     type="text"
-                    name=""
-                    id=""
+                    name="PHONE"
+                    id="mce-PHONE"
                     size="25"
                     value=""
                     placeholder="Phone number&hellip;"
@@ -211,18 +220,48 @@
                     pattern="[0-9]+"
                     style="margin-bottom: 0.5rem; width: 100%"
                   />
+                  <span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
                   <!-- email -->
                   <div class="control control-expanded">
                     <input
                       class="input"
                       type="email"
-                      name=""
-                      id=""
+                      name="EMAIL"
+                      id="mce-EMAIL"
                       size="25"
                       placeholder="Email address&hellip;"
                       value=""
                       required
                       style="margin-bottom: 0.5rem; width: 100%"
+                    />
+                    <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                  </div>
+                  <!-- hidden items - mailchimp -->
+                  <div hidden="true">
+                    <input type="hidden" name="tags" value="9327975" />
+                  </div>
+                  <div id="mce-responses" class="clear foot">
+                    <div
+                      class="response"
+                      id="mce-error-response"
+                      style="display: none"
+                    ></div>
+                    <div
+                      class="response"
+                      id="mce-success-response"
+                      style="display: none"
+                    ></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div
+                    style="position: absolute; left: -5000px"
+                    aria-hidden="true"
+                  >
+                    <input
+                      type="text"
+                      name="b_d84b2cda48ca08683bbb99bc4_1de699dc09"
+                      tabindex="-1"
+                      value=""
                     />
                   </div>
                   <!-- submit button -->
@@ -230,7 +269,8 @@
                     <input
                       type="submit"
                       class="formEmailButton button button-primary button-block"
-                      name="submit"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
                       value="JOIN THE WAIT LIST &nbsp; &xrarr;"
                       style="background: #3f85d8"
                     />
