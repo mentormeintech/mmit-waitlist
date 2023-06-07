@@ -637,8 +637,12 @@ acronym {
   text-align: center;
 }
 @media (width <= 500px) {
-  .hero {
-    text-align: left;
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .button-block {
+    margin: auto;
   }
 }
 .text-right {
