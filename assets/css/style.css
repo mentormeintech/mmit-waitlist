@@ -1368,7 +1368,7 @@ acronym {
   margin: 0 auto;
 }
 .newsletter-header h2 {
-  font-size: clamp(28px, 3vw, 40px);
+  font-size: clamp(26px, 4vw, 36px);
 }
 .body-wrap {
   background: #fff;
